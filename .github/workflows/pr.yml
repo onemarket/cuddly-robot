@@ -15,7 +15,6 @@ jobs:
         import os
         import sys
 
-
         pr_title = os.environ['GITHUB_PR_TITLE'] if os.environ['GITHUB_PR_TITLE'] else ''
 
         # Check pull request title for valid structure
